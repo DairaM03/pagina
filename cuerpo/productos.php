@@ -1,6 +1,3 @@
-<?php 
-include "configs/config.php";
- ?>
 
 <!DOCTYPE html>
 <html>
@@ -20,12 +17,17 @@ include "configs/config.php";
 		<a href="?p=miscompras">Mis Compras</a>
 		<a href="login.php">login</a>
 	</div>
+	</body>
+
 	<div class="cuerpo">
 		
+                
+
+
 	</div>
+	
 	<div class="footer">
 		Copyright Daira &copy; <?=date("Y")?>
 	</div>
-
-</body>
 </html>
+

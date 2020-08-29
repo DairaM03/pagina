@@ -4,11 +4,11 @@ include "configs/config.php";
 
 <!DOCTYPE html>
 <html>
-<head>
+
 	<link rel="stylesheet" href="css/estilo.css"/>
 	<title>CHARAPE</title>
-</head>
-<body>
+
+<head>
 	<div class="header">
 		CHARAPE
 	</div>
@@ -19,10 +19,13 @@ include "configs/config.php";
 		<a href="?p=carrito">Mi Carrito</a>
 		<a href="?p=miscompras">Mis Compras</a>
 		<a href="login.php">login</a>
+	</head>
+<body>		
 	</div>
 	<div class="cuerpo">
 		
 	</div>
+
 	<div class="footer">
 		Copyright Daira &copy; <?=date("Y")?>
 	</div>
